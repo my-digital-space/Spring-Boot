@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: SpringProfilesUsingYaml
+
+server:
+  port: 8989
+
