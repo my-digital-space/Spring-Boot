@@ -8,6 +8,9 @@ public class SpringProfilesApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringProfilesApplication.class, args);
+//		SpringApplication app = new SpringApplication(SpringProfilesApplication.class);
+//		app.setAdditionalProfiles("prod");
+//		app.run(args);
 	}
 
 }
