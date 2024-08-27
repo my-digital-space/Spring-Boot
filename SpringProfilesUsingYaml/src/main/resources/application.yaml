@@ -1,7 +1,27 @@
 spring:
   application:
     name: SpringProfilesUsingYaml
+  profiles:
+    active: dev2
 
 server:
   port: 8989
+
+myapp:
+  custom_text1: Hello local
+
+---
+spring.config.activate.on-profile: dev2
+myapp:
+  custom_text1: Hello dev2
+
+---
+spring.config.activate.on-profile: qa2
+myapp:
+  custom_text1: Hello qa2
+
+---
+spring.config.activate.on-profile: prod2
+myapp:
+  custom_text1: Hello prod2
 
