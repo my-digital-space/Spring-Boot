@@ -1,1 +1,9 @@
-spring.application.name=ReadWindowsEnv
+spring:
+  application:
+    name: ReadWindowsEnv
+
+server:
+  port: 8989
+
+myEnvVar: ${MY_CUSTOM_ENV_VAR}
+
