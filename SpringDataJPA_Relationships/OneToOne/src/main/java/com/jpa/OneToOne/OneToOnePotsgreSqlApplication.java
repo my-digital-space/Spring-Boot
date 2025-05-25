@@ -19,5 +19,6 @@ public class OneToOnePotsgreSqlApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		appService.saveData();
+		appService.fetchData();
 	}
 }
